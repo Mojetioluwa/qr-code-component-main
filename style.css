@@ -22,21 +22,37 @@
 body{
     background-color: var(--Light-gray);
     padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
 }
 
 article{
     background-color: var(--White);
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 290px;
+    width: 100%;
+    margin: auto;
+    
 }
 
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
 
 img{
     width: 90%;
-    display: block;
-    /* padding: 10px 20px; */
-    /* padding-top: 20px; */
-    /* margin-left: auto;
-    margin-right: auto; */
     border-radius: 10px;
 }
 
@@ -50,10 +66,10 @@ h1{
 
 p{
     font-family: var(--ff-family);
-    font-weight: 100;
+    font-weight: 600;
     text-align: center;
     opacity: 0.3;
-    font-size: 13px;
+    font-size: 14px;
     padding: 10px 20px 20px 20px;
 }
 
